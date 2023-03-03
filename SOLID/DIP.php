@@ -6,7 +6,7 @@
 
   Aqui está um exemplo do Princípio de Inversão de Dependência em PHP:
   Neste exemplo, a classe Order é o módulo de alto nível e as classes 
-  CreditCard PayPalsão os módulos de baixo nível. A Orderclasse depende 
+  CreditCard PayPal são os módulos de baixo nível. A Order classe depende 
   de uma abstração (a PaymentMethodinterface) em vez de uma implementação 
   concreta ( CreditCardou PayPal).
 
