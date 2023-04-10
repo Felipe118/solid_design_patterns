@@ -41,14 +41,8 @@ class User
 
 class UserProfile
 {
-    private $user;
     private $address;
     private $phone;
-    
-    public function __construct(User $user)
-    {
-        $this->user = $user;
-    }
     
     public function setAddress($address)
     {
